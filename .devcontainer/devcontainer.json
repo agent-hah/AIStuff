@@ -1,0 +1,16 @@
+{
+  "name": "AI-project-container",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "remoteUser": "codespace",
+  "overrideCommand": false ,
+ // Add the IDs of extensions you want installed when the container is created.
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot",
+             "esbenp.prettier-vscode",
+             "dbaeumer.vscode-eslint"
+         ]
+     }
+ }
+}
