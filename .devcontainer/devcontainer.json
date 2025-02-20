@@ -6,7 +6,8 @@
         "GitHub.copilot",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "ms-python.python"
       ]
     }
   }
